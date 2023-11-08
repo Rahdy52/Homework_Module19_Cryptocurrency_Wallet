@@ -28,6 +28,7 @@
 import streamlit as st
 from dataclasses import dataclass
 from typing import Any, List
+import hashlib
 from web3 import Web3
 
 w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:7545"))
@@ -80,7 +81,7 @@ w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:7545"))
 # @TODO:
 # From `crypto_wallet.py import the functions generate_account, get_balance,
 #  and send_transaction
-from crypto_wallet import generate_account, get_balance, send_transaction  
+from crypto_wallet import generate_account,get_balance,send_transaction  
 
 ################################################################################
 # KryptoJobs2Go Candidate Information
@@ -89,8 +90,8 @@ from crypto_wallet import generate_account, get_balance, send_transaction
 # A single Ether is currently valued at $1,500
 candidate_database = {
     "Lane": [
-        "Lane",
-        "0xaC8eB8B2ed5C4a0fC41a84Ee4950F417f67029F0",
+        "Lane", 
+        "0x1dEaa5ac68A17bec3F18625C2d0728F854b02FAf", 
         "4.3",
         0.20,
         "Images/lane.jpeg",
@@ -172,8 +173,8 @@ st.sidebar.write(account.address)
 # @TODO
 # Call `get_balance` function and pass it your account address
 # Write the returned ether balance to the sidebar
-account_balance = get_balance(w3, account.address)
-st.sidebar.write(account_balance)
+ether_balance = get_balance(w3, account.address)
+st.sidebar.write(ether_balance)
 
 ##########################################
 

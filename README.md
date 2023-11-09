@@ -99,12 +99,16 @@ Now it's time to put it all together and test the KryptoJobs2Go application with
 3. On the resulting webpage, select a candidate that you would like to hire from the appropriate drop-down menu. Then, enter the number of hours that you would like to hire them for. (Remember, you do not have a lot of ether in your account, so you cannot hire them for long!)
 
 4. Click the Send Transaction button to sign and send the transaction with your Ethereum account information. Navigate to the Transactions section of Ganache.
+   ![image](https://github.com/Rahdy52/Homework_Module19_Cryptocurrency_Wallet/assets/66510693/d719f034-ac7a-470c-b5fa-f150d62c95cc)
+
 
     * Take a screenshot of your address balance and history on Ganache. Save this screenshot to the README.md file of your GitHub repository for this Challenge assignment.
+![image](https://github.com/Rahdy52/Homework_Module19_Cryptocurrency_Wallet/assets/66510693/cd0df960-c568-4c43-a4e8-3f64c3f197fb)
 
     * Take a screenshot of the transaction details on Ganache. Save this screenshot to the README.md file of your GitHub repository for this Challenge assignment.
+![image](https://github.com/Rahdy52/Homework_Module19_Cryptocurrency_Wallet/assets/66510693/deaf1234-b897-471b-882d-c727b5636cc7)
 
-5. Return to the original transaction, and click the transaction’s To address.
+6. Return to the original transaction, and click the transaction’s To address.
 
 * Take a screenshot of the recipient’s address balance and history from your Ganache application. Save this screenshot to the README.md file of your GitHub repository for this Challenge assignment.
 

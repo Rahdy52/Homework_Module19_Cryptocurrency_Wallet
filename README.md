@@ -112,6 +112,7 @@ Now it's time to put it all together and test the KryptoJobs2Go application with
 
 * Take a screenshot of the recipient’s address balance and history from your Ganache application. Save this screenshot to the README.md file of your GitHub repository for this Challenge assignment.
 
+<img width="2233" alt="Screenshot 2023-11-09 at 9 37 30 pm" src="https://github.com/Rahdy52/Homework_Module19_Cryptocurrency_Wallet/assets/66510693/bfe14471-3cfc-4096-bdc8-b013340e2270">
 ---
 
 ## Submission
